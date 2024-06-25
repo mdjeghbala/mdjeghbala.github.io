@@ -1426,3 +1426,24 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin-top: 20px;
+}
+.skills {
+  width: 50px;
+  height: 50px;
+}
+
+.rotate-on-hover {
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rotate-on-hover:hover {
+    transform: rotate(360deg);
+}
