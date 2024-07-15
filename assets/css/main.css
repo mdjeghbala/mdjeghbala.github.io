@@ -1066,6 +1066,13 @@ section,
   .gallery-details .swiper-button-next {
     display: none;
   }
+
+  div .icon-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 }
 
 .gallery-details .swiper-pagination {
